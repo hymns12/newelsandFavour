@@ -25,6 +25,10 @@ import yinka from "../img/yinka.jpeg";
 import yf from "../img/yf.jpeg";
 import idm from "../img/idm.jpeg";
 
+import wife1 from "../img/wife1.jpeg";
+import wife2 from "../img/wife2.jpeg";
+import wife3 from "../img/wife3.jpeg";
+
 // icons
 import { BsFacebook } from "react-icons/bs";
 import { RiWhatsappFill } from "react-icons/ri";
@@ -293,25 +297,25 @@ function Home() {
             <div className="carousel-item flex-col">
               <img
                 alt="img-text"
-                src={jhun}
+                src={wife1}
                 className="rounded-box"
                 width={300}
               />
               <div>
-                <h2 style={{ fontSize: "20px", padding: "10px" }}>John Odey</h2>
+                <h2 style={{ fontSize: "20px", padding: "10px" }}>Mary Jane</h2>
                 <h3 style={{ fontSize: "17px" }}>Bridesmaids</h3>
               </div>
             </div>
             <div className="carousel-item flex-col">
               <img
                 alt="img-text"
-                src={promise}
+                src={wife2}
                 className="rounded-box"
                 width={340}
               />
               <div>
                 <h2 style={{ fontSize: "20px", padding: "10px" }}>
-                  Promise Peters
+                  Blessing
                 </h2>
                 <h3 style={{ fontSize: "17px" }}>Bridesmaids</h3>
               </div>
@@ -319,13 +323,13 @@ function Home() {
             <div className="carousel-item flex-col">
               <img
                 alt="img-text"
-                src={bf}
+                src={wife3}
                 className="rounded-box"
                 width={340}
               />
               <div>
                 <h2 style={{ fontSize: "20px", padding: "10px" }}>
-                  Adoga James
+                  Kedei
                 </h2>
                 <h3 style={{ fontSize: "17px" }}>Bridesmaids</h3>
               </div>
